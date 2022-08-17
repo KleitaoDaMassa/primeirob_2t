@@ -1,5 +1,7 @@
 body {
   background: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
 }
 h1 {
   text-align: center;
@@ -52,4 +54,22 @@ li a:hover {
   border-style: dashed;
   margin: 20px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+  position: absolute;
+  bottom: 0;
+  background-color: black; 
+  color: crimson;
+  width: 100%;
+  left: 0;
+  height: 40px;
+  justify-content: center;
+  font-style: italic;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
+  
 }
